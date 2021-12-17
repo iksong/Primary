@@ -6,7 +6,8 @@ import Foundation
 @_exported import Primary
 import Swift
 import _Concurrency
-@_hasMissingDesignatedInitializers public class PrimaryManager {
+public class PrimaryManager {
+  public init()
   public func show()
   @objc deinit
 }
